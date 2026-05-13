@@ -21,7 +21,7 @@ authors:
   - family-names: "Deng"
     given-names: "Shizhuo"
     orcid: "https://orcid.org/0000-0002-6863-8516"
-repository-code: "https://github.com/your-org/adaptive_phasegate_kbs_release"
+repository-code: "https://github.com/yangqingyuan-byte/FRWKV-plus"
 license: "SEE LICENSE"
 keywords:
   - time series forecasting
