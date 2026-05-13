@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.out
+*.aux
+*.abs
+*.fdb_latexmk
+*.fls
+*.toc
+*.gz
+.DS_Store
+experiment_runner/
+!results/final_evidence/source_snapshots/
+!results/final_evidence/source_snapshots/**

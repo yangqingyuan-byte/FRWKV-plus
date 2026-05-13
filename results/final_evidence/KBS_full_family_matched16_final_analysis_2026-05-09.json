@@ -1,0 +1,216 @@
+{
+  "run_ids": {
+    "Adaptive PhaseGate": [
+      "parallel_run_20260509_134027"
+    ],
+    "FullContextDelta": [
+      "parallel_run_20260508_212616"
+    ],
+    "CrossBranchPhaseGate/CrossBranchGate/FRWKV": [
+      "parallel_run_20260503_130521",
+      "parallel_run_20260503_131828"
+    ]
+  },
+  "load_meta": {
+    "raw_completed_with_metrics": 2240,
+    "raw_completed": 2240,
+    "ignored_completed": 0,
+    "deduped_rows": 2240
+  },
+  "validation": {
+    "expected_rows": 2240,
+    "observed_rows": 2240,
+    "duplicate_setting_seed_rows": [],
+    "missing_setting_seed_rows": [],
+    "bad_seed_groups": []
+  },
+  "winner_counts": {
+    "mse": {
+      "Adaptive PhaseGate": 8,
+      "FullContextDelta": 5,
+      "CrossBranchPhaseGate": 3,
+      "CrossBranchGate": 5,
+      "FRWKV": 7
+    },
+    "mae": {
+      "Adaptive PhaseGate": 7,
+      "FullContextDelta": 2,
+      "CrossBranchPhaseGate": 3,
+      "CrossBranchGate": 4,
+      "FRWKV": 12
+    }
+  },
+  "average_ranks": {
+    "mse": {
+      "Adaptive PhaseGate": 2.9642857142857144,
+      "FullContextDelta": 2.857142857142857,
+      "CrossBranchPhaseGate": 3.2142857142857144,
+      "CrossBranchGate": 3.2142857142857144,
+      "FRWKV": 2.75
+    },
+    "mae": {
+      "Adaptive PhaseGate": 3.2142857142857144,
+      "FullContextDelta": 2.9642857142857144,
+      "CrossBranchPhaseGate": 3.0357142857142856,
+      "CrossBranchGate": 3.3214285714285716,
+      "FRWKV": 2.4642857142857144
+    }
+  },
+  "paired_comparisons": {
+    "mse": [
+      {
+        "model": "FullContextDelta",
+        "metric": "mse",
+        "setting_wins": 14,
+        "setting_losses": 14,
+        "setting_ties": 0,
+        "setting_mean_delta": -0.0010933348214285635,
+        "setting_median_delta": -3.349999999999187e-05,
+        "setting_sign_p_one_sided": 0.5747229903936386,
+        "setting_sign_p_two_sided": 1.0,
+        "setting_bootstrap_prob_positive": 0.104,
+        "seed_wins": 229,
+        "seed_losses": 219,
+        "seed_ties": 0,
+        "seed_mean_delta": -0.0010933348214285713,
+        "seed_median_delta": 0.00013099999999999223,
+        "seed_bootstrap_prob_positive": 0.3289
+      },
+      {
+        "model": "CrossBranchPhaseGate",
+        "metric": "mse",
+        "setting_wins": 14,
+        "setting_losses": 14,
+        "setting_ties": 0,
+        "setting_mean_delta": 0.0003682500000000035,
+        "setting_median_delta": 2.4250000000003435e-05,
+        "setting_sign_p_one_sided": 0.5747229903936386,
+        "setting_sign_p_two_sided": 1.0,
+        "setting_bootstrap_prob_positive": 0.5504,
+        "seed_wins": 220,
+        "seed_losses": 228,
+        "seed_ties": 0,
+        "seed_mean_delta": 0.00036824999999999976,
+        "seed_median_delta": -8.350000000001412e-05,
+        "seed_bootstrap_prob_positive": 0.5569
+      },
+      {
+        "model": "CrossBranchGate",
+        "metric": "mse",
+        "setting_wins": 16,
+        "setting_losses": 12,
+        "setting_ties": 0,
+        "setting_mean_delta": 0.0023244308035714352,
+        "setting_median_delta": 0.00014193749999998062,
+        "setting_sign_p_one_sided": 0.28579409420490265,
+        "setting_sign_p_two_sided": 0.5715881884098053,
+        "setting_bootstrap_prob_positive": 0.69905,
+        "seed_wins": 231,
+        "seed_losses": 217,
+        "seed_ties": 0,
+        "seed_mean_delta": 0.0023244308035714253,
+        "seed_median_delta": 0.0001624999999999821,
+        "seed_bootstrap_prob_positive": 0.7947
+      },
+      {
+        "model": "FRWKV",
+        "metric": "mse",
+        "setting_wins": 13,
+        "setting_losses": 15,
+        "setting_ties": 0,
+        "setting_mean_delta": 0.0003006741071428648,
+        "setting_median_delta": -0.00013418750000002144,
+        "setting_sign_p_one_sided": 0.7142059057950974,
+        "setting_sign_p_two_sided": 0.8505540192127228,
+        "setting_bootstrap_prob_positive": 0.55985,
+        "seed_wins": 212,
+        "seed_losses": 236,
+        "seed_ties": 0,
+        "seed_mean_delta": 0.000300674107142856,
+        "seed_median_delta": -0.0003535000000000066,
+        "seed_bootstrap_prob_positive": 0.5369
+      }
+    ],
+    "mae": [
+      {
+        "model": "FullContextDelta",
+        "metric": "mae",
+        "setting_wins": 14,
+        "setting_losses": 14,
+        "setting_ties": 0,
+        "setting_mean_delta": -0.000350482142857133,
+        "setting_median_delta": -2.2343749999986784e-05,
+        "setting_sign_p_one_sided": 0.5747229903936386,
+        "setting_sign_p_two_sided": 1.0,
+        "setting_bootstrap_prob_positive": 0.21755,
+        "seed_wins": 219,
+        "seed_losses": 229,
+        "seed_ties": 0,
+        "seed_mean_delta": -0.0003504821428571406,
+        "seed_median_delta": -5.300000000001137e-05,
+        "seed_bootstrap_prob_positive": 0.3156
+      },
+      {
+        "model": "CrossBranchPhaseGate",
+        "metric": "mae",
+        "setting_wins": 11,
+        "setting_losses": 17,
+        "setting_ties": 0,
+        "setting_mean_delta": 7.284821428570858e-05,
+        "setting_median_delta": -0.0001634687500000065,
+        "setting_sign_p_one_sided": 0.9075333289802074,
+        "setting_sign_p_two_sided": 0.34492845088243484,
+        "setting_bootstrap_prob_positive": 0.51845,
+        "seed_wins": 217,
+        "seed_losses": 231,
+        "seed_ties": 0,
+        "seed_mean_delta": 7.284821428571633e-05,
+        "seed_median_delta": -9.100000000000774e-05,
+        "seed_bootstrap_prob_positive": 0.5358
+      },
+      {
+        "model": "CrossBranchGate",
+        "metric": "mae",
+        "setting_wins": 14,
+        "setting_losses": 14,
+        "setting_ties": 0,
+        "setting_mean_delta": 0.000666234374999993,
+        "setting_median_delta": 3.2499999999824336e-06,
+        "setting_sign_p_one_sided": 0.5747229903936386,
+        "setting_sign_p_two_sided": 1.0,
+        "setting_bootstrap_prob_positive": 0.7029,
+        "seed_wins": 214,
+        "seed_losses": 234,
+        "seed_ties": 0,
+        "seed_mean_delta": 0.0006662343749999994,
+        "seed_median_delta": -0.00021599999999996622,
+        "seed_bootstrap_prob_positive": 0.79295
+      },
+      {
+        "model": "FRWKV",
+        "metric": "mae",
+        "setting_wins": 11,
+        "setting_losses": 17,
+        "setting_ties": 0,
+        "setting_mean_delta": -2.202008928571828e-05,
+        "setting_median_delta": -0.000319937500000006,
+        "setting_sign_p_one_sided": 0.9075333289802074,
+        "setting_sign_p_two_sided": 0.34492845088243484,
+        "setting_bootstrap_prob_positive": 0.4772,
+        "seed_wins": 201,
+        "seed_losses": 247,
+        "seed_ties": 0,
+        "seed_mean_delta": -2.202008928571103e-05,
+        "seed_median_delta": -0.0003019999999999967,
+        "seed_bootstrap_prob_positive": 0.48155
+      }
+    ]
+  },
+  "result_to_claim": {
+    "claim_supported": "partial",
+    "confidence": "medium-high",
+    "supported": "Adaptive PhaseGate has the largest MSE winner count and clear local gains on some regimes, especially ETTh2-level averages.",
+    "not_supported": "The matched 16-seed mean does not support a claim that Adaptive PhaseGate is the strongest overall default by average rank or MAE coverage.",
+    "recommended_claim": "Frame adaptive periodic-position information as a selective correction mechanism with regime-dependent gains, not as a uniformly dominant replacement for the simpler FRWKV-family variants."
+  }
+}

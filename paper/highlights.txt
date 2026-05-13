@@ -1,0 +1,5 @@
+FRWKV+ targets selective periodic-position correction in frequency-space forecasting.
+Cross-branch gates exchange real and imaginary frequency contexts.
+Adaptive PhaseGate provides trust-controlled signed periodic-position corrections.
+Matched 16-seed ablations show the largest MSE winner coverage in the FRWKV family.
+Regime analysis clarifies when periodic-position correction is useful.

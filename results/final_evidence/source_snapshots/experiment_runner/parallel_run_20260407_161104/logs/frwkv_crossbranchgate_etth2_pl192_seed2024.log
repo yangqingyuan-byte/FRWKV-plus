@@ -1,0 +1,143 @@
+nohup: failed to run command '/root/clash/clash': No such file or directory
+
+Namespace(device='cuda', model_type='frwkv_crossbranchgate', data_path='ETTh2', channel=32, num_nodes=7, seq_len=96, pred_len=192, batch_size=32, learning_rate=0.0001, dropout_n=0.2, dropout=0.2, d_llm=768, d_model=512, d_ff=512, e_layer=1, d_layer=1, head=8, n_heads=8, e_layers=2, temp_patch_len=16, temp_stride=8, embed_size=8, activation='gelu', CKA_flag=0, weight_decay=0.001, loss_mode='L1', lossfun_alpha=0.5, num_workers=10, model_name='gpt2', epochs=40, seed=2024, es_patience=8, save='./logs/2026-04-07-16:24:18-', model_tag='formal_frwkv_crossbranchgate_etth2_pl192_seed2024', embed_version='original', use_embeddings=False, save_model=False)
+Start training...
+Epoch: 001, Training Time: 17.6119 secs
+Epoch: 001, Validation Time: 1.8977 secs
+-----------------------
+Epoch: 001, Train Loss: 0.0513, Train MAE: 0.4174 
+Epoch: 001, Valid Loss: 0.0432, Valid MAE: 0.3541
+###Update tasks appear###
+Updating! Valid Loss:0.0432, epoch:  1
+Epoch: 002, Training Time: 16.9344 secs
+Epoch: 002, Validation Time: 1.8990 secs
+-----------------------
+Epoch: 002, Train Loss: 0.0490, Train MAE: 0.4007 
+Epoch: 002, Valid Loss: 0.0434, Valid MAE: 0.3550
+No update
+Epoch: 003, Training Time: 17.1880 secs
+Epoch: 003, Validation Time: 1.9373 secs
+-----------------------
+Epoch: 003, Train Loss: 0.0479, Train MAE: 0.3918 
+Epoch: 003, Valid Loss: 0.0429, Valid MAE: 0.3522
+###Update tasks appear###
+Updating! Valid Loss:0.0429, epoch:  3
+Epoch: 004, Training Time: 17.2913 secs
+Epoch: 004, Validation Time: 1.9308 secs
+-----------------------
+Epoch: 004, Train Loss: 0.0468, Train MAE: 0.3831 
+Epoch: 004, Valid Loss: 0.0429, Valid MAE: 0.3527
+No update
+Epoch: 005, Training Time: 17.3482 secs
+Epoch: 005, Validation Time: 1.9026 secs
+-----------------------
+Epoch: 005, Train Loss: 0.0458, Train MAE: 0.3738 
+Epoch: 005, Valid Loss: 0.0433, Valid MAE: 0.3556
+No update
+Epoch: 006, Training Time: 17.1006 secs
+Epoch: 006, Validation Time: 1.9057 secs
+-----------------------
+Epoch: 006, Train Loss: 0.0451, Train MAE: 0.3682 
+Epoch: 006, Valid Loss: 0.0433, Valid MAE: 0.3551
+No update
+Epoch: 007, Training Time: 17.2062 secs
+Epoch: 007, Validation Time: 1.8846 secs
+-----------------------
+Epoch: 007, Train Loss: 0.0441, Train MAE: 0.3595 
+Epoch: 007, Valid Loss: 0.0436, Valid MAE: 0.3583
+No update
+Epoch: 008, Training Time: 17.2075 secs
+Epoch: 008, Validation Time: 1.9278 secs
+-----------------------
+Epoch: 008, Train Loss: 0.0432, Train MAE: 0.3523 
+Epoch: 008, Valid Loss: 0.0435, Valid MAE: 0.3577
+No update
+Epoch: 009, Training Time: 17.0792 secs
+Epoch: 009, Validation Time: 1.8998 secs
+-----------------------
+Epoch: 009, Train Loss: 0.0424, Train MAE: 0.3454 
+Epoch: 009, Valid Loss: 0.0440, Valid MAE: 0.3623
+No update
+Epoch: 010, Training Time: 17.1533 secs
+Epoch: 010, Validation Time: 1.8530 secs
+-----------------------
+Epoch: 010, Train Loss: 0.0416, Train MAE: 0.3385 
+Epoch: 010, Valid Loss: 0.0440, Valid MAE: 0.3619
+No update
+Epoch: 011, Training Time: 17.1790 secs
+Epoch: 011, Validation Time: 1.8405 secs
+-----------------------
+Epoch: 011, Train Loss: 0.0409, Train MAE: 0.3325 
+Epoch: 011, Valid Loss: 0.0441, Valid MAE: 0.3632
+No update
+Epoch: 012, Training Time: 17.3533 secs
+Epoch: 012, Validation Time: 1.9424 secs
+-----------------------
+Epoch: 012, Train Loss: 0.0402, Train MAE: 0.3263 
+Epoch: 012, Valid Loss: 0.0440, Valid MAE: 0.3618
+No update
+Epoch: 013, Training Time: 17.5301 secs
+Epoch: 013, Validation Time: 1.8149 secs
+-----------------------
+Epoch: 013, Train Loss: 0.0394, Train MAE: 0.3200 
+Epoch: 013, Valid Loss: 0.0442, Valid MAE: 0.3635
+No update
+Epoch: 014, Training Time: 16.9952 secs
+Epoch: 014, Validation Time: 1.9163 secs
+-----------------------
+Epoch: 014, Train Loss: 0.0388, Train MAE: 0.3146 
+Epoch: 014, Valid Loss: 0.0444, Valid MAE: 0.3644
+No update
+Epoch: 015, Training Time: 17.1446 secs
+Epoch: 015, Validation Time: 1.9946 secs
+-----------------------
+Epoch: 015, Train Loss: 0.0381, Train MAE: 0.3088 
+Epoch: 015, Valid Loss: 0.0442, Valid MAE: 0.3628
+No update
+Epoch: 016, Training Time: 17.1171 secs
+Epoch: 016, Validation Time: 2.0324 secs
+-----------------------
+Epoch: 016, Train Loss: 0.0374, Train MAE: 0.3030 
+Epoch: 016, Valid Loss: 0.0448, Valid MAE: 0.3694
+No update
+Epoch: 017, Training Time: 17.2802 secs
+Epoch: 017, Validation Time: 1.9510 secs
+-----------------------
+Epoch: 017, Train Loss: 0.0369, Train MAE: 0.2988 
+Epoch: 017, Valid Loss: 0.0445, Valid MAE: 0.3661
+No update
+Epoch: 018, Training Time: 17.3084 secs
+Epoch: 018, Validation Time: 1.9267 secs
+-----------------------
+Epoch: 018, Train Loss: 0.0363, Train MAE: 0.2936 
+Epoch: 018, Valid Loss: 0.0449, Valid MAE: 0.3694
+No update
+Epoch: 019, Training Time: 17.5526 secs
+Epoch: 019, Validation Time: 2.0253 secs
+-----------------------
+Epoch: 019, Train Loss: 0.0358, Train MAE: 0.2892 
+Epoch: 019, Valid Loss: 0.0448, Valid MAE: 0.3682
+No update
+Epoch: 020, Training Time: 18.0371 secs
+Epoch: 020, Validation Time: 2.0529 secs
+-----------------------
+Epoch: 020, Train Loss: 0.0353, Train MAE: 0.2856 
+Epoch: 020, Valid Loss: 0.0448, Valid MAE: 0.3683
+No update
+Average Training Time: 17.2809 secs/epoch
+Average Validation Time: 1.9268 secs
+Training ends
+The epoch of the best result： 3
+The valid loss of the best model 0.0429
+On average horizons, Test MSE: 0.3578, Test MAE: 0.3804
+
+============================================================
+实验结果已记录到: ./experiment_results.log
+数据集: ETTh2, 预测长度: 192
+Test MSE: 0.357758, Test MAE: 0.380370
+模型: frwkv_crossbranchgate, 种子: 2024
+Channel: 32, Embed: none, LR: 0.0001
+============================================================
+
+Total time spent: 388.9529
+[W407 16:30:48.034318408 AllocatorConfig.cpp:28] Warning: PYTORCH_CUDA_ALLOC_CONF is deprecated, use PYTORCH_ALLOC_CONF instead (function operator())

@@ -1,0 +1,78 @@
+nohup: failed to run command '/root/clash/clash': No such file or directory
+
+Namespace(device='cuda', model_type='frwkv_crossbranchphasegate_adaptive', data_path='ETTm2', channel=32, num_nodes=7, seq_len=96, pred_len=192, batch_size=32, learning_rate=0.0001, dropout_n=0.2, dropout=0.2, d_llm=768, d_model=512, d_ff=512, e_layer=1, d_layer=1, head=8, n_heads=8, e_layers=2, temp_patch_len=16, temp_stride=8, embed_size=8, phase_period_len=24, phase_period_list='12,24,48', phase_num_routers=2, phase_alpha_init=0.02, phase_trust_bias_init=-3.0, activation='gelu', CKA_flag=0, weight_decay=0.001, loss_mode='L1', lossfun_alpha=0.5, num_workers=10, train_percent=100, gpu_devices='', model_name='gpt2', epochs=18, seed=2025, es_patience=6, save='./logs/2026-04-08-23:53:16-', model_tag='overnight_phasegate_ettm2_pl192_pp24_r2_a0.02_b-3.0_seed2025', embed_version='original', use_embeddings=False, save_model=False)
+Start training...
+Epoch: 001, Training Time: 71.4682 secs
+Epoch: 001, Validation Time: 7.4668 secs
+-----------------------
+Epoch: 001, Train Loss: 0.0378, Train MAE: 0.3112 
+Epoch: 001, Valid Loss: 0.0337, Valid MAE: 0.2772
+###Update tasks appear###
+Updating! Valid Loss:0.0337, epoch:  1
+Epoch: 002, Training Time: 72.4070 secs
+Epoch: 002, Validation Time: 8.2152 secs
+-----------------------
+Epoch: 002, Train Loss: 0.0361, Train MAE: 0.2987 
+Epoch: 002, Valid Loss: 0.0335, Valid MAE: 0.2751
+###Update tasks appear###
+Updating! Valid Loss:0.0335, epoch:  2
+Epoch: 003, Training Time: 72.9278 secs
+Epoch: 003, Validation Time: 7.9791 secs
+-----------------------
+Epoch: 003, Train Loss: 0.0353, Train MAE: 0.2926 
+Epoch: 003, Valid Loss: 0.0333, Valid MAE: 0.2746
+###Update tasks appear###
+Updating! Valid Loss:0.0333, epoch:  3
+Epoch: 004, Training Time: 73.9141 secs
+Epoch: 004, Validation Time: 8.0612 secs
+-----------------------
+Epoch: 004, Train Loss: 0.0345, Train MAE: 0.2867 
+Epoch: 004, Valid Loss: 0.0333, Valid MAE: 0.2751
+No update
+Epoch: 005, Training Time: 72.9321 secs
+Epoch: 005, Validation Time: 7.9749 secs
+-----------------------
+Epoch: 005, Train Loss: 0.0338, Train MAE: 0.2813 
+Epoch: 005, Valid Loss: 0.0334, Valid MAE: 0.2754
+No update
+Epoch: 006, Training Time: 73.4879 secs
+Epoch: 006, Validation Time: 8.1707 secs
+-----------------------
+Epoch: 006, Train Loss: 0.0331, Train MAE: 0.2752 
+Epoch: 006, Valid Loss: 0.0336, Valid MAE: 0.2774
+No update
+Epoch: 007, Training Time: 72.7071 secs
+Epoch: 007, Validation Time: 8.7873 secs
+-----------------------
+Epoch: 007, Train Loss: 0.0324, Train MAE: 0.2691 
+Epoch: 007, Valid Loss: 0.0338, Valid MAE: 0.2789
+No update
+Epoch: 008, Training Time: 79.0897 secs
+Epoch: 008, Validation Time: 11.1753 secs
+-----------------------
+Epoch: 008, Train Loss: 0.0317, Train MAE: 0.2631 
+Epoch: 008, Valid Loss: 0.0340, Valid MAE: 0.2810
+No update
+Epoch: 009, Training Time: 82.5295 secs
+Epoch: 009, Validation Time: 13.6240 secs
+-----------------------
+Epoch: 009, Train Loss: 0.0310, Train MAE: 0.2567 
+Epoch: 009, Valid Loss: 0.0343, Valid MAE: 0.2834
+No update
+Average Training Time: 74.6070 secs/epoch
+Average Validation Time: 9.0505 secs
+Training ends
+The epoch of the best result： 3
+The valid loss of the best model 0.0333
+On average horizons, Test MSE: 0.2331, Test MAE: 0.2910
+
+============================================================
+实验结果已记录到: ./experiment_results.log
+数据集: ETTm2, 预测长度: 192
+Test MSE: 0.233051, Test MAE: 0.290963
+模型: frwkv_crossbranchphasegate_adaptive, 种子: 2025
+Channel: 32, Embed: none, LR: 0.0001
+============================================================
+
+Total time spent: 766.5724
+[W409 00:06:03.266291147 AllocatorConfig.cpp:28] Warning: PYTORCH_CUDA_ALLOC_CONF is deprecated, use PYTORCH_ALLOC_CONF instead (function operator())

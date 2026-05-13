@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or the accompanying manuscript assets, please cite the released repository and manuscript."
+title: "FRWKV+: Adaptive Periodic-Position Branch Interaction for Frequency-Space Linear Time Series Forecasting"
+type: software
+version: 0.1.0
+authors:
+  - family-names: "Chen"
+    given-names: "Dongyue"
+  - family-names: "Yang"
+    given-names: "Qingyuan"
+    orcid: "https://orcid.org/0009-0005-6662-3141"
+  - family-names: "Teng"
+    given-names: "Da"
+    orcid: "https://orcid.org/0009-0006-7996-3716"
+  - family-names: "Xiao"
+    given-names: "Junhua"
+    orcid: "https://orcid.org/0009-0007-8406-3461"
+  - family-names: "Pan"
+    given-names: "Jiaji"
+    orcid: "https://orcid.org/0009-0001-1307-7870"
+  - family-names: "Deng"
+    given-names: "Shizhuo"
+    orcid: "https://orcid.org/0000-0002-6863-8516"
+repository-code: "https://github.com/your-org/adaptive_phasegate_kbs_release"
+license: "SEE LICENSE"
+keywords:
+  - time series forecasting
+  - linear attention
+  - frequency modeling
+  - periodic position modeling
+  - adaptive gating

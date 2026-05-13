@@ -1,0 +1,15 @@
+# Core dependencies
+torch
+pandas>=1.5.0
+scikit-learn>=1.1.0
+matplotlib>=3.5.0
+timm>=0.6.0
+seaborn>=0.11.0
+reformer_pytorch>=1.2.0
+fvcore>=0.1.5
+
+# Note: PyTorch should be installed separately based on your CUDA version
+# For CUDA 12.9: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu129
+# For CUDA 12.1: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# For CUDA 11.8: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# For CPU only: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu

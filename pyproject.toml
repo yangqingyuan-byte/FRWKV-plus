@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adaptive-phasegate-kbs"
+version = "0.1.0"
+description = "Reproducible code, data, and manuscript assets for FRWKV+: Adaptive Periodic-Position Branch Interaction in frequency-space linear time series forecasting."
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = { text = "See LICENSE" }
+authors = [
+  { name = "Dongyue Chen" },
+  { name = "Qingyuan Yang" },
+  { name = "Da Teng" },
+  { name = "Junhua Xiao" },
+  { name = "Jiaji Pan" },
+  { name = "Shizhuo Deng" }
+]
+dependencies = [
+  "numpy>=1.24,<2",
+  "pandas>=1.5,<3",
+  "scipy>=1.10,<2",
+  "scikit-learn>=1.2,<2",
+  "h5py>=3.8,<4",
+  "matplotlib>=3.7,<4",
+  "seaborn>=0.13,<1",
+  "einops>=0.7,<1",
+  "timm>=1.0,<2",
+  "pyyaml>=6,<7",
+  "tqdm>=4.64,<5",
+]
+
+[project.optional-dependencies]
+notify = [
+  "requests>=2.31",
+  "cryptography>=42",
+]
+dev = [
+  "pytest>=8",
+  "ruff>=0.6",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["adaptive_phasegate_kbs*"]
+
+[tool.setuptools.package-data]
+adaptive_phasegate_kbs = [
+  "configs/*.json",
+  "dataset/*.csv",
+  "dataset/*.md",
+  "FRWKV/**/*.py",
+  "FRWKV/**/*.sh",
+  "FRWKV/**/*.txt",
+  "FRWKV/.gitignore",
+  "FRWKV/README.md",
+]
